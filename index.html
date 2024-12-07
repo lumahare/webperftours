@@ -33,8 +33,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.crossOrigin="an
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3MTMLV8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!--I changed the line below-->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N3MTMLV8"></script>
+
+
 <!-- End Google Tag Manager (noscript) -->
     <div class="demo-banner">
      <p>This is a demo page - the data is not real. Learn about web performance monitoring at <a href="https://www.debugbear.com" target="_blank">DebugBear 
@@ -72,44 +74,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/home.js"></script>
     <script src="js/general.js"></script>
     <script src="js/destination-carousel.js"></script>
-    <main>
+	
+	<main>
         <section class=" popular  cssanimation fadeIn">
-    <ul>
-        <li>
-            <img src="images/banner-images/family-holiday.jpg" alt="Family holiday">
-            <p>
-                Packages for the whole family
-            </p>
-        </li>
+            <ul>
+                <li>
+                    <img loading="lazy" src="images/banner-images/family-holiday.jpg" alt="Family holiday">
+                    <p>Packages for the whole family</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="images/banner-images/romantic-getaway.jpg" alt="Romantic getaway">
+                    <p>Romantic destinations for two</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="images/banner-images/solo-travel.jpg" alt="Solo travel">
+                    <p>Travel alone, but never lonely</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="images/banner-images/adventure-holiday.jpg" alt="Adventure holiday">
+                    <p>Adventure awaits</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="images/banner-images/luxury-travel.jpg" alt="Luxury travel">
+                    <p>Luxury travel experiences</p>
+                </li>
+            </ul>
+        </section>
 
-        <li>
-            <img src="images/banner-images/romantic-getaway.jpg" alt="Romantic getaway">
-            <p>
-                Romantic destinations for two
-            </p>
-        </li>
-        <li>
-            <img src="images/banner-images/solo-travel.jpg" alt="Solo travel">
-            <p>
-                Travel alone, but never lonely
-            </p>
-        </li>
-
-        <li>
-            <img src="images/banner-images/adventure-holiday.jpg" alt="Adventure holiday">
-            <p>
-                Adventure awaits
-            </p>
-        </li>
-
-        <li>
-            <img src="images/banner-images/luxury-travel.jpg" alt="Luxury travel">
-            <p>
-                Luxury travel experiences
-            </p>
-        </li>
-    </ul>
-</section>
 
 <section class="featured container">
     <img src="images/iceland-big.jpg" alt="A mountain in Iceland"/>
